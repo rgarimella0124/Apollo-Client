@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import { size } from 'polished';
 
 import { unit, colors } from '../styles';
@@ -29,7 +29,7 @@ const Header: React.FC<HeaderProps> = ({ image, children = 'Space Explorer' }) =
 
   return (
     <Container>
-      <Image round={!image} src={avatar} alt="Space dog" />
+      {/* <Image round={!image} src={avatar} alt="Space dog" /> */}
       <div>
         <h2>{children}</h2>
         <Subheading>{email}</Subheading>
@@ -50,10 +50,10 @@ const Container = styled('div')({
   marginBottom: unit * 4.5,
 });
 
-const Image = styled('img')(size(134), (props: { round: boolean }) => ({
-  marginRight: unit * 2.5,
-  borderRadius: props.round ? '50%' : '0%',
-}));
+// const Image = styled('img')(size(134), (props: { round: boolean }) => ({
+//   marginRight: unit * 2.5,
+//   borderRadius: props.round ? '50%' : '0%',
+// }));
 
 const Subheading = styled('h5')({
   marginTop: unit / 2,

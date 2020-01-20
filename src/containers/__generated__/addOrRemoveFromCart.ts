@@ -3,13 +3,13 @@
 // This file was automatically generated and should not be edited.
 
 // ====================================================
-// GraphQL mutation operation: login
+// GraphQL mutation operation: addOrRemoveFromCart
 // ====================================================
 
-export interface login {
-  login: string | null;
+export interface addOrRemoveFromCart {
+  addOrRemoveFromCart: string[];
 }
 
-export interface loginVariables {
-  email: string;
+export interface addOrRemoveFromCartVariables {
+  launchId: string;
 }
