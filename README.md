@@ -8,7 +8,7 @@ An Interactive app for reserving a seat on an upcoming SpaceX launch. Think of i
 
 ## Data Source:
 
-All of the data is real, Thanks to the ![SpaceX-API](https://github.com/r-spacex/SpaceX-API)
+All of the data is real, Thanks to the [SpaceX-API](https://github.com/r-spacex/SpaceX-API)
 
 ## App includes :
 
